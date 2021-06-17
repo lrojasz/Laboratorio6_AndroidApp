@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/gooseButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ganzo"
+        app:layout_constraintBottom_toTopOf="@+id/coinButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dogButton" />
+
+    <TextView
+        android:id="@+id/Lab6Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="96dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Laboratorio6" />
+
+    <Button
+        android:id="@+id/alarmButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="alarma"
+        app:layout_constraintBottom_toTopOf="@+id/dogButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Lab6Title" />
+
+    <Button
+        android:id="@+id/coinButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="monedas"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dogButton" />
+
+    <Button
+        android:id="@+id/whooshButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="whoosh"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/coinButton" />
+
+    <Button
+        android:id="@+id/arcadeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Juego"
+        app:layout_constraintBottom_toTopOf="@+id/dogButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/alarmButton" />
+
+    <Button
+        android:id="@+id/dogButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="perro"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Lab6Title" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
